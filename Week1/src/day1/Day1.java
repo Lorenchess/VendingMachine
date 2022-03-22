@@ -1,3 +1,5 @@
+package day1;
+
 /**
  * @author Ramon Lorente
  * date: Mar 21st, 2022

@@ -35,9 +35,7 @@ public abstract class VendingMachine {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return "Product: " + name +
+                ", Price: $" + price;
     }
 }

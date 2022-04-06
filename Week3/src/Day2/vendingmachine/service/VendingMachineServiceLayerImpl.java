@@ -2,6 +2,7 @@ package Day2.vendingmachine.service;
 
 import Day2.vendingmachine.dao.VendingMachineAuditDao;
 import Day2.vendingmachine.dao.VendingMachineDao;
+import Day2.vendingmachine.dao.VendingMachinePersistenceException;
 
 import java.math.BigDecimal;
 
@@ -15,13 +16,13 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
     }
 
     @Override
-    public void displayInitialData() {
+    public void displayInitialData() throws VendingMachinePersistenceException {
         dao.displayingProductsFromVendingMachine();
 
     }
 
     @Override
-    public void buyProduct(BigDecimal userMoney, String productName) {
+    public void buyProduct(BigDecimal userMoney, String productName) throws VendingMachineInsufficientFundsException, VendingMachineNoItemInventoryException, VendingMachinePersistenceException {
         dao.buyingAProduct(userMoney, productName);
     }
 }

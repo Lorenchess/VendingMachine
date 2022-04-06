@@ -9,7 +9,7 @@ public interface UserIO {
 
     int readInt(String prompt, int min, int max);
 
-    public BigDecimal readBigDecimal(String prompt);
+    BigDecimal readBigDecimal(String prompt);
 
     String readString(String prompt);
 }

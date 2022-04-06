@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class UserIOConsoleImpl implements UserIO{
-    final private Scanner console = new Scanner(System.in);
+    private Scanner console = new Scanner(System.in);
 
     @Override
     public void print(String msg) {
@@ -33,6 +33,7 @@ public class UserIOConsoleImpl implements UserIO{
         while (invalidInput) {
             try {
                 num = this.readStringBigDecimal(prompt);
+                console.nextLine();
                 invalidInput = false;
             } catch (NumberFormatException e) {
                 this.print("Input error. Please try again.");

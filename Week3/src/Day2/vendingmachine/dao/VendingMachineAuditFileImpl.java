@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 
 public class VendingMachineAuditFileImpl implements VendingMachineAuditDao{
-    public static final String AUDIT_FILE = "audit.txt";
+    public static final String AUDIT_FILE = "C:\\Users\\Ramon Lorente\\Desktop\\c184-Java-React\\Week3\\src\\Day2\\vendingmachine\\dao\\VendingMachineAuditFile";
     @Override
     public void writeAuditEntry(String entry) throws VendingMachineNoItemInventoryException {
         PrintWriter out;

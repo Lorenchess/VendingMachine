@@ -1,5 +1,7 @@
 package Day2.vendingmachine.controller;
 
+import Day2.vendingmachine.dao.VendingMachinePersistenceException;
+import Day2.vendingmachine.service.VendingMachineInsufficientFundsException;
 import Day2.vendingmachine.service.VendingMachineNoItemInventoryException;
 import Day2.vendingmachine.service.VendingMachineServiceLayer;
 import Day2.vendingmachine.ui.VendingMachineView;
@@ -17,20 +19,24 @@ public class VendingMachineController {
         this.service = service;
     }
 
-    public void run() {
+    public void run() throws VendingMachinePersistenceException {
         boolean keepGoing = true;
         int menuSelection = 0;
+        welcomeMessage();
+        askForUsersMoney();
+        displayInitialData();
         try{
             while (keepGoing) {
-                welcomeMessage();
-                askUserMoneyAndDisplayData();
                 menuSelection = getMenuSelection();
 
                 switch (menuSelection) {
                     case 1:
-
+                        buyAProduct();
                         break;
                     case 2:
+                        askForUsersMoney();
+                        break;
+                    case 3:
                         keepGoing = false;
                         break;
                     default:
@@ -39,28 +45,31 @@ public class VendingMachineController {
 
             }
             exitMessage();
-        }catch (Exception e) {
+        }catch (VendingMachinePersistenceException | VendingMachineInsufficientFundsException | VendingMachineNoItemInventoryException e) {
             view.displayErrorMessage(e.getMessage());
         }
 
     }
 
-    private void askUserMoneyAndDisplayData() {
-       userMoney = view.getAndDisplayUserMoney();
+    private void askForUsersMoney() {
+        userMoney = view.getUserMoney();
+    }
+
+    private void displayInitialData() throws VendingMachinePersistenceException {
         displayingInitialData();
     }
 
-    private void buyAProduct() {
-        //view.getAndDisplayUserMoney();
-        //ask user for name of product
-        //service.buyProduct();
+
+    private void buyAProduct() throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineNoItemInventoryException {
+        String userProduct = view.getUserProductName();
+        service.buyProduct(userMoney, userProduct);
     }
 
     private void welcomeMessage() {
         view.displayWelcomeBanner();
     }
 
-    private void displayingInitialData() {
+    private void displayingInitialData() throws VendingMachinePersistenceException {
         service.displayInitialData();
     }
 

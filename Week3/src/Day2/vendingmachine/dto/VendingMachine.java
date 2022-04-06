@@ -3,13 +3,22 @@ package Day2.vendingmachine.dto;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public abstract class VendingMachine {
+public class VendingMachine {
     private String name;
     private BigDecimal price;
+    private int totalUnits;
 
-    public VendingMachine(String name, BigDecimal price) {
+
+    public VendingMachine(String name) {
         this.name = name;
-        this.price = price;
+    }
+
+    public int getTotalUnits() {
+        return totalUnits;
+    }
+
+    public void setTotalUnits(int totalUnits) {
+        this.totalUnits = totalUnits;
     }
 
     public String getName() {
@@ -20,17 +29,21 @@ public abstract class VendingMachine {
         return price;
     }
 
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof VendingMachine)) return false;
-        VendingMachine product = (VendingMachine) o;
-        return getName().equals(product.getName()) && getPrice().equals(product.getPrice());
+        VendingMachine that = (VendingMachine) o;
+        return getTotalUnits() == that.getTotalUnits() && getName().equals(that.getName()) && getPrice().equals(that.getPrice());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getPrice());
+        return Objects.hash(getName(), getPrice(), getTotalUnits());
     }
 
     @Override

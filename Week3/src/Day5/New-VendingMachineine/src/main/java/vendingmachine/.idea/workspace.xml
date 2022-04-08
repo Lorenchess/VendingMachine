@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aca78316-bb75-4778-bbf3-2a9364675508" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestPackages/dao/VendingMachineDaoStubImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestPackages/service/VendingMachineAuditDaoStubImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestPackages/service/VendingMachineServiceLayerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/audit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/.idea/Week2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/OutputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/OutputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/StateCapitals2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/StateCapitals2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/Week2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/audit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/audit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/roster.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week2/roster.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/Testing/Testing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Airplane/AirplaneFlightSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Airplane/AirplaneTrafficControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Airplane/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Car/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Car/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Car/CarVideoGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/Car/Dealership.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/book/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/book/BookCatalogSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/book/BookPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/house/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/house/Hourse3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/house/HouseGPSSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/icecream/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/classmodeling/icecream/IceCreamGroceryStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/Factorizer/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/Factorizer/Factorizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/InterestCalculator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/InterestCalculator/InterestCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/LuckySevens/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/LuckySevens/LuckySevens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/RockPaperScissors/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/refactorobjects/RockPaperScissors/RockPaperScissors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/shapesperimeters/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/simplecalculator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week2/src/Day1/simplecalculator/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineAuditDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineAuditDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineAuditFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineAuditFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineAuditFileImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineDaoFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/dao/VendingMachineDaoFileImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/service/VendingMachineServiceLayerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Week3/Day2/vendingmachine/service/VendingMachineServiceLayerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/VendingMachineAuditDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/VendingMachineAuditDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/VendingMachineAuditFile" beforeDir="false" afterPath="$PROJECT_DIR$/dao/VendingMachineFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/VendingMachineAuditFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/VendingMachineAuditFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/VendingMachineDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/VendingMachineDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/VendingMachineDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/VendingMachineDaoFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/VendingMachineServiceLayerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/VendingMachineServiceLayerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-1-Lorenchess" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../week-1-Lorenchess" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27VgOhLnnDxOEUGt1NzegAzbI1o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aca78316-bb75-4778-bbf3-2a9364675508" name="Changes" comment="" />
+      <created>1649410636953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649410636953</updated>
+    </task>
+    <servers />
+  </component>
+</project>

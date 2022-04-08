@@ -24,5 +24,6 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
     @Override
     public void buyProduct(BigDecimal userMoney, String productName) throws VendingMachineInsufficientFundsException, VendingMachineNoItemInventoryException, VendingMachinePersistenceException {
         dao.buyingAProduct(userMoney, productName);
+        auditDao.writeAuditEntry("The " + productName + " was successfully bought");
     }
 }

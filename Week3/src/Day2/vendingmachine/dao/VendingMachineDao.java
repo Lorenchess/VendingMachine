@@ -15,4 +15,6 @@ public interface VendingMachineDao {
     void displayingProductsFromVendingMachine() throws VendingMachinePersistenceException;
 
     void buyingAProduct(BigDecimal userMoney, String productName) throws VendingMachineInsufficientFundsException, VendingMachineNoItemInventoryException, VendingMachinePersistenceException;
+
+
 }

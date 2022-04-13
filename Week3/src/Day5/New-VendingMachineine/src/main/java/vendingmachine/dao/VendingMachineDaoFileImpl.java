@@ -43,10 +43,11 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
     }
 
     @Override
-    public void buyingAProduct(BigDecimal userMoney, String productName) throws VendingMachineInsufficientFundsException, VendingMachinePersistenceException {
-        loadVendingMachine();
+    public VendingMachine buyingAProduct(BigDecimal userMoney, String productName) throws VendingMachineInsufficientFundsException, VendingMachinePersistenceException {
+        //loadVendingMachine();
         VendingMachine userProduct = null;
         Collection<VendingMachine> myProducts = myVendingMachineProducts.values();
+
 
         int enoughMoney = 0;
 
@@ -66,14 +67,15 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
         userProduct.setTotalUnits(updatedProduct);
         System.out.println("checking again " + userProduct.getTotalUnits()); //display the correct number ok
 
+        VendingMachine machineUpdated = myVendingMachineProducts.put(userProduct.getName(), userProduct);
+
         writeVendingMachine();
-
         displayingProductsFromVendingMachine(); //not displaying the updated map
-
+        return machineUpdated;
     }
 
     private int checkProductUserMoneyUpdateProducts(int comparedMoney, VendingMachine userProduct, BigDecimal userMoney) throws VendingMachineInsufficientFundsException, VendingMachinePersistenceException {
-        loadVendingMachine();
+        //loadVendingMachine();
         int updatingTotalUnits = userProduct.getTotalUnits();
         if (comparedMoney >= 0) {
             if (userProduct != null) {
@@ -99,7 +101,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
             printUserAmountNeedIt(userProduct.getPrice(),userMoney);
             throw new VendingMachineInsufficientFundsException("You have not enough founds.");
         }
-        writeVendingMachine();
+        //writeVendingMachine();
         return updatingTotalUnits;
     }
 
@@ -109,17 +111,17 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
 
 
     private BigDecimal updateUserMoneyAvailable(BigDecimal userMoney, VendingMachine userProduct) throws VendingMachinePersistenceException {
-        loadVendingMachine();
+        //loadVendingMachine();
         VendingMachineController.userMoney = userMoney.subtract(userProduct.getPrice());
         System.out.println("Updated money "+VendingMachineController.userMoney);
 
-        writeVendingMachine();
+        //writeVendingMachine();
         return VendingMachineController.userMoney;
     }
 
 
     private void giveUserChangeInCoins(BigDecimal amount) throws VendingMachinePersistenceException {
-        loadVendingMachine();
+        //loadVendingMachine();
         BigInteger quarters, dimes, nickels, pennies, cents;
 
           cents = amount.multiply(BigDecimal.valueOf(100)).toBigInteger(); //to convert to pennies
@@ -140,13 +142,13 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
     }
 
     private BigDecimal calculateUserAmountNeedItToPurchase(BigDecimal priceOfItem, BigDecimal userFounds ) throws VendingMachinePersistenceException {
-        loadVendingMachine();
+        //loadVendingMachine();
         BigDecimal totalToPutInMachine = priceOfItem.subtract(userFounds);
         return totalToPutInMachine;
     }
 
     private void printUserAmountNeedIt(BigDecimal priceOfItem, BigDecimal userFounds) throws VendingMachinePersistenceException {
-        loadVendingMachine();
+        //loadVendingMachine();
         BigDecimal amount = null;
         amount = calculateUserAmountNeedItToPurchase(priceOfItem,userFounds );
         System.out.println(" You need $"+ amount + " more in your account to purchase the item selected.");
@@ -180,7 +182,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
                             new FileReader(VENDING_MACHINE_FILE)));
         } catch (FileNotFoundException e) {
             throw new VendingMachinePersistenceException(
-                    "-_- Could not load roster data into memory.", e);
+                    "-_- Could not load vending machine data into memory.", e);
         }
 
         String currentLine;

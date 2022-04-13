@@ -34,7 +34,7 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
     }
 
     @Override
-    public void buyingAProduct(BigDecimal userMoney, String productName) throws VendingMachinePersistenceException {
-
+    public VendingMachine buyingAProduct(BigDecimal userMoney, String productName) throws VendingMachinePersistenceException {
+       return null;
     }
 }

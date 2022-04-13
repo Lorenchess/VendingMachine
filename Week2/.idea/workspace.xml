@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70443076-a501-4621-a0b3-07343395c71e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/c184-Java-React.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2/Day5/ClassRoster/ClassRoster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/ClassRoster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day5/ClassRoster/out/production/ClassRoster/Day5/ClassRoster/ClassRoster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/DVDLibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/DVDLibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/controller/DVDLibraryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/dao/DVDLibraryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/dao/DVDLibraryDaoException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/dao/DVDLibraryDaoFileImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/dao/dvd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/dto/DVDLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/ui/DVDLibraryView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/ui/UserIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/ui/UserIOConsoleImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/out/production/DVDLibrary/Day4/DVDLibrary/unittestingDAO/DVDLibraryDaoFileImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/Day5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/ClassRoster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/StatelessUnitTesting/StatelessUnitTesting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Week2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OutputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OutputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StateCapitals2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StateCapitals2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roster.txt" beforeDir="false" afterPath="$PROJECT_DIR$/roster.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/Testing/Testing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/AirplaneFlightSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/AirplaneTrafficControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/CarVideoGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/Dealership.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/BookCatalogSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/BookPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/Hourse3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/HouseGPSSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/icecream/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/icecream/IceCreamGroceryStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/Factorizer/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/Factorizer/Factorizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/InterestCalculator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/InterestCalculator/InterestCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/LuckySevens/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/LuckySevens/LuckySevens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/RockPaperScissors/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/RockPaperScissors/RockPaperScissors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/simplecalculator/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/simplecalculator/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/Week2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/Testing/Testing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Airplane/AirplaneFlightSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Airplane/AirplaneFlightSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Airplane/AirplaneTrafficControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Airplane/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Airplane/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/Car/CarDealership.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/BookCatalogSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/BookCatalogSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/BookPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/book/BookPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/house/Hourse3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/house/HouseGPSSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/icecream/IceCreamDairyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/icecream/IceCreamGroceryStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/classmodeling/icecream/IceCreamGroceryStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/shapesperimeters/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/shapesperimeters/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/SimpleCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/SimpleCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/dvd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/dvd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/UI/ClassRosterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/UI/ClassRosterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/VendingMachineFile" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/VendingMachineFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/audit" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/audit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/src/main/java/vendingmachine/dao/VendingMachineDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/src/main/java/vendingmachine/dao/VendingMachineDaoFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/target/classes/vendingmachine/dao/VendingMachineDaoFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/target/classes/vendingmachine/dao/VendingMachineDaoFileImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/copy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/week-3-Lorenchess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week-1-Lorenchess" beforeDir="false" afterPath="$PROJECT_DIR$/../week-1-Lorenchess" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week-2-Lorenchess" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="271SShvfoEmYZV18e96Gs8tqJoL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../StatelessUnitTesting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ramon Lorente\Desktop\c184-Java-React\Week2\week-2-Lorenchess\src\Day5\Testing" />
+      <recent name="C:\Users\Ramon Lorente\Desktop\c184-Java-React\Week2\week-2-Lorenchess\src\Day5" />
+      <recent name="C:\Users\Ramon Lorente\Desktop\c184-Java-React\Week2\week-2-Lorenchess\src\Day4\DVDLibrary\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ramon Lorente\Desktop\c184-Java-React\Week2\week-2-Lorenchess\src\Day3\ClassRoster\DAO" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Day3.ClassRoster.UI" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Day4.DVDLibrary.unittestingDAO" />
+      <recent name="Day5.ClassRoster.TestPackages.service" />
+      <recent name="Day5.ClassRoster.DAO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.ClassRoster.App" />
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.ClassRoster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day5.ClassRoster.App" />
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day5.ClassRoster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.DVDLibrary.App" />
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.DVDLibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateCapitals2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.statecapitals.StateCapitals2" />
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.statecapitals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassRosterDaoFileImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day5.ClassRoster.TestPackages.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day5.ClassRoster.TestPackages.dao" />
+      <option name="MAIN_CLASS_NAME" value="Day5.ClassRoster.TestPackages.dao.ClassRosterDaoFileImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (3)" />
+        <item itemvalue="JUnit.ClassRosterDaoFileImplTest" />
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.StateCapitals2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70443076-a501-4621-a0b3-07343395c71e" name="Changes" comment="" />
+      <created>1648486103387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648486103387</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/week-2-Lorenchess/src/Day3/ClassRoster/UI/ClassRosterView.java</url>
+          <line>43</line>
+          <properties class="Day3.ClassRoster.UI.ClassRosterView" method="getNewStudentInfo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

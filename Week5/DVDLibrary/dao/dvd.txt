@@ -1,0 +1,4 @@
+Hello::1985-04-25::pg13::Ramon::marvel::good
+Harry Potter::2085-04-25::pg13::Michael::Marvel::great movie series
+Jurasic Park::1980-04-25::pg13::Michael::Disney::great movie 
+Titanic::1985-04-25::pg19::Spilver::Netflix::Good movie

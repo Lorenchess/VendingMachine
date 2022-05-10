@@ -15,7 +15,7 @@ public class App {
         System.out.println(ld);
 
         ld = LocalDate.parse("03/30/2017", DateTimeFormatter.ofPattern("MM/dd/yyyy"));
-        System.out.println(ld);
+        System.out.println("Look at meee "+ld);
 
         //convert to string
         String isoDate = ld.toString();
@@ -25,7 +25,7 @@ public class App {
 
         //formatting ld
         String formatted = ld.format(DateTimeFormatter.ofPattern("MM/dd/yyyy"));
-        System.out.println(formatted);
+        System.out.println("HEREEEEEEEEEEEE "+formatted);
 
         formatted = ld.format(DateTimeFormatter.ofPattern("+++MM*dd*yyyy+++"));
         System.out.println(formatted);
@@ -90,11 +90,16 @@ public class App {
         String year = String.valueOf(yearNow);
         System.out.println(year);
 
+        System.out.println("=============================================================================================================");
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter formatters = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        String text = date.format(formatters);
+        LocalDate parsedDate = LocalDate.parse(text, formatters);
 
-
-
-//       ldn = LocalDate.parse(ldn.getYear()+ ldn.getMonthValue()+ldn.getDayOfMonth()+"");
-//        System.out.println(ldn);
+        System.out.println("date: " + date);
+        System.out.println("Text format " + text);
+        System.out.println("parsedDate: " + parsedDate.format(formatters));
+        System.out.println(parsedDate);
 
     }
 }

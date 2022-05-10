@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DVDLibrary.iml" filepath="$PROJECT_DIR$/DVDLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DVDLibrary.iml" filepath="$PROJECT_DIR$/.idea/DVDLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dvd-library-api/dvd-library-api.iml" filepath="$PROJECT_DIR$/dvd-library-api/dvd-library-api.iml" />
     </modules>
   </component>
 </project>

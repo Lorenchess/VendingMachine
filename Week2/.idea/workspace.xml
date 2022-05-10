@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70443076-a501-4621-a0b3-07343395c71e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/c184-Java-React.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2/Day5/ClassRoster/ClassRoster.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
@@ -101,50 +95,7 @@
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/lib/opentest4j-1.2.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/StatelessUnitTesting/StatelessUnitTesting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Week2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OutputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OutputFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StateCapitals2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StateCapitals2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roster.txt" beforeDir="false" afterPath="$PROJECT_DIR$/roster.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/Testing/Testing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/AirplaneFlightSimulator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/AirplaneTrafficControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Airplane/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/CarVideoGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/Car/Dealership.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/BookCatalogSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/book/BookPublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/Hourse3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/house/HouseGPSSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/icecream/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/classmodeling/icecream/IceCreamGroceryStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/Factorizer/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/Factorizer/Factorizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/InterestCalculator/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/InterestCalculator/InterestCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/LuckySevens/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/LuckySevens/LuckySevens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/RockPaperScissors/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/refactorobjects/RockPaperScissors/RockPaperScissors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/shapesperimeters/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/simplecalculator/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/simplecalculator/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/Week2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/Week2.iml" afterDir="false" />
@@ -163,15 +114,11 @@
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/shapesperimeters/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/shapesperimeters/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/SimpleCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/out/production/Week2/Day1/simplecalculator/SimpleCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/DVDLibraryDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/DVDLibraryDaoFileImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/dvd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dao/dvd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dto/DVDLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/dto/DVDLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/ui/DVDLibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day4/DVDLibrary/ui/DVDLibraryView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/UI/ClassRosterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-2-Lorenchess/src/Day5/ClassRoster/UI/ClassRosterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/VendingMachineFile" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/VendingMachineFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/audit" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day2/vendingmachine/dao/audit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/src/main/java/vendingmachine/dao/VendingMachineDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/src/main/java/vendingmachine/dao/VendingMachineDaoFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/target/classes/vendingmachine/dao/VendingMachineDaoFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/src/Day5/New-VendingMachineine/target/classes/vendingmachine/dao/VendingMachineDaoFileImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/src/Day5/copy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/week-3-Lorenchess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-1-Lorenchess" beforeDir="false" afterPath="$PROJECT_DIR$/../week-1-Lorenchess" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<!--We start by taking in the name and description like we normally would, with input text fields.
+When we get to Teacher, we use a select tag. With select, we can't send the entire object, so we give the select tag the
+name teacherId. We send only the ID of the Teacher we want for this Course to the back-end.
+Inside the select tag, we put a th:each attribute inside an option tag so that we create an option for each Teacher.
+Inside the option tag, we use th:value to indicate what data is sent to the back-end and th:text to indicate what is
+ displayed on the screen.
+When we get to Students, we do the same thing, except we indicate that the select tag is a multiple select, meaning more
+than one option can be chosen. When we pick up the studentId in the back-end, we will get an array of the IDs that were chosen.
+We fill in the option tags the same way we did with the Teacher.
+Lastly, we create our submit button.
+The important takeaways here are how we represent the relationships on the page.
+The one-to-many relationship of Courses with Teachers can be easily represented as a drop-down menu. For the many-to-many
+relationship of Courses with Students, we need the multi-select, letting us pick more than one Student from the list.
+Another common option is checkboxes. With either one, you can select multiple Students to be part of the Course.-->
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row m-4">
+        <div class="col text-center border border-dark">
+            <h1><a href="/" class="text-dark">Course Manager</a></h1>
+        </div>
+    </div>
+    <div class="row m-4 border border-dark">
+        <div class="col text-center m-3">
+            <a href="teachers" class="btn btn-outline-primary btn-lg">Teachers</a>
+        </div>
+        <div class="col text-center m-3">
+            <a href="students" class="btn btn-outline-primary btn-lg">Students</a>
+        </div>
+        <div class="col text-center m-3">
+            <a href="courses" class="btn btn-outline-primary btn-lg">Courses</a>
+        </div>
+    </div>
+    <div class="row m-4 border border-dark">
+        <div class="col text-center m-3">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Teacher</th>
+                    <a href="#" th:href="@{/courseDetail(id=${course.id})}">Details</a>
+                    <a href="#" th:href="@{/editCourse(id=${course.id})}">Edit</a>
+                    <a href="#" th:href="@{/deleteCourse(id=${course.id})}">Delete</a>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="course : ${courses}">
+                    <td th:text="${course.id}">Course ID</td>
+                    <td th:text='${course.name}'>Course Name</td>
+                    <td th:text="${course.teacher.firstName + ' '
+                                    + course.teacher.lastName}">Teacher Name</td>
+                    <td>Details</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="row m-4 border border-dark">
+                <div class="col-3 text-center m-3">
+                    <span class="h3">Add Course</span>
+                </div>
+                <div class="col-7 text-center m-3">
+                    <form action="addCourse" method="POST">
+                        <div class="form-group row">
+                            <label for="name" class="col-3 col-form-label">
+                                Name</label>
+                            <div class="col-9">
+                                <input type="text" name="name" id="name" class="form-control"
+                                       th:value="${course.name}" />
+                                <div th:if="${#fields.hasErrors('course.name')}">
+                                    <p th:each="error : ${#fields.errors('course.name')}"
+                                       class="alert alert-danger" th:text="${error}">
+                                        Bad name </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="description" class="col-3 col-form-label">
+                                Description</label>
+                            <div class="col-9">
+                                <input type="text" name="description" id="description" class="form-control"
+                                       th:value="${course.description}"/>
+                                <div th:if="${#fields.hasErrors('course.description')}">
+                                    <p th:each="error : ${#fields.errors('course.description')}"
+                                       class="alert alert-danger" th:text="${error}">
+                                        Bad description</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="teacher" class="col-3 col-form-label">
+                                Teacher</label>
+                            <div class="col-9">
+                                <select id="teacher" name="teacherId" class="form-control" >
+                                    <option th:each="teacher : ${teachers}"
+                                            th:value="${teacher.id}"
+                                            th:text="${teacher.firstName + ' '
+                                                + teacher.lastName}">
+                                        Teacher Name</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="students" class="col-3 col-form-label">
+                                Students</label>
+                            <div class="col-9">
+                                <select multiple id="students" name="studentId"
+                                        class="form-control" >
+                                    <option th:each="student : ${students}"
+                                            th:value="${student.id}"
+                                            th:text="${student.firstName + ' '
+                                                + student.lastName}">
+                                        Student Name</option>
+                                </select>
+                                <div th:if="${#fields.hasErrors('course.students')}">
+                                    <p th:each="error : ${#fields.errors('course.students')}"
+                                       class="alert alert-danger" th:text="${error}">
+                                        Bad student </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Course</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
